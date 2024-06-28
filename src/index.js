@@ -9,7 +9,7 @@ import Offer from "./Offer";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/mogo">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/projects" element={<Projects />} />
