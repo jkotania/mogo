@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.naglowek {
+  font-size: 6vw;
+}
+.naglowek,
+.naglowek1 {
+  font-weight: 300;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.formularz {
+  min-height: 80vh;
+  height: 75vh;
+  width: 85vw;
+  border: 5px solid black;
+  margin-top: 35px;
+}
+.formularz input {
+  width: 30vw;
+}
+.formularz select {
+  width: 27vw;
+}
+
+.formularz a {
+  padding-right: 40px;
+}
+
+.formularz button {
+  width: 30vw;
+}
+
+.homediv {
+  min-width: 85vw;
+  width: 85vw;
+  margin-top: -50px;
+}
+
+.heroimage {
+  min-width: 85vw;
+  width: 85vw;
+}
+
+.featuredgrid {
+  min-width: 85vw;
+  width: 85vw;
+  margin-top: -35px;
+}
+
+.projects-h1 {
+  font-size: 3vw;
+  font-weight: 400;
+}
+
+.panel {
+  border-radius: 0 0 0.5rem 0.5rem;
+  z-index: -999;
 }
