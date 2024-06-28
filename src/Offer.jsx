@@ -46,7 +46,6 @@ function Offer() {
 
   return (
     <>
-      <Navbar />
       <div className="flex flex-col justify-center font-light p-6">
         <div className="w-full text-6xl text-center text-black border-0 border-solid max-md:max-w-full max-md:text-4xl">
           Oferta
@@ -143,7 +142,6 @@ function Offer() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

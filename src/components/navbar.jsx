@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Logo, ProfileIcon, SettingsIcon } from './icons';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import AuthModal from '../components/loginform';
 import SettingsModal from '../components/settings';
 
@@ -13,31 +13,34 @@ export default function Navbar() {
 
   const handleContactClick = () => {
     navigate('/#contact');
-    const element = document.getElementById('contact');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
+    setTimeout(() => {
+      const element = document.getElementById('contact');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100);
   };
+  
 
   return (
     <header className="bg-transparent text-black py-6 px-4 md:px-6 flex items-center justify-between h-20 shadow-sm">
-      <a href="/" className="flex items-center gap-2 font-bold text-lg">
+      <Link to="/" className="flex items-center gap-2 font-bold text-lg">
         <Logo className="h-25 w-25" />
-      </a>
+      </Link>
       <div className="flex items-center gap-12">
         <div className="flex gap-8">
-          <a href="/" className="hover:text-gray-400 transition-colors text-xl">
+          <Link to="/" className="hover:text-gray-400 transition-colors text-xl">
             Strona główna
-          </a>
-          <a href="/projects" className="hover:text-gray-400 transition-colors text-xl">
+          </Link>
+          <Link to="/projects" className="hover:text-gray-400 transition-colors text-xl">
             Projekty
-          </a>
-          <a href="/offer" className="hover:text-gray-400 transition-colors text-xl">
+          </Link>
+          <Link to="/offer" className="hover:text-gray-400 transition-colors text-xl">
             Oferta
-          </a>
-          <a onClick={handleContactClick} className="hover:text-gray-400 transition-colors text-xl cursor-pointer">
+          </Link>
+          <Link to="/" onClick={handleContactClick} className="hover:text-gray-400 transition-colors text-xl cursor-pointer">
             Kontakt
-          </a>
+          </Link>
         </div>
 
         <div className="flex items-center gap-4">

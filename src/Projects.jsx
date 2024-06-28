@@ -25,7 +25,6 @@ const Projects = () => {
 
   return (
     <>
-      <Navbar />
       <div className="container mx-auto p-4 mb-16">
         <h1 className="projects-h1  mb-8 text-center">Nasze Projekty</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
@@ -42,7 +41,6 @@ const Projects = () => {
           ))}
         </div>
       </div>
-      <Footer />
     </>
   );
 };
