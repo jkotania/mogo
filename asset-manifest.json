@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/mogo/static/css/main.3379f0c9.css",
-    "main.js": "/mogo/static/js/main.1b547710.js",
+    "main.css": "/mogo/static/css/main.4c5f92f4.css",
+    "main.js": "/mogo/static/js/main.29f8f342.js",
     "index.html": "/mogo/index.html",
-    "main.3379f0c9.css.map": "/mogo/static/css/main.3379f0c9.css.map",
-    "main.1b547710.js.map": "/mogo/static/js/main.1b547710.js.map"
+    "main.4c5f92f4.css.map": "/mogo/static/css/main.4c5f92f4.css.map",
+    "main.29f8f342.js.map": "/mogo/static/js/main.29f8f342.js.map"
   },
   "entrypoints": [
-    "static/css/main.3379f0c9.css",
-    "static/js/main.1b547710.js"
+    "static/css/main.4c5f92f4.css",
+    "static/js/main.29f8f342.js"
   ]
 }
