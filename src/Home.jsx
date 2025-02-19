@@ -58,15 +58,15 @@ const Home = () => {
     <>
       <section className="relative text-gray-50 py-2 md:py-3 lg:py-6 flex justify-center content-center">
         <div className="homediv relative flex justify-center items-center p-12">
-          <div className="relative">
+          <div className="relative w-full">
             <img
               src="furnitures.png"
               alt="Hero Product"
-              className="heroimage rounded-lg"
+              className="heroimage rounded-lg w-full object-cover"
             />
             <div className="absolute inset-0 bg-black opacity-60 rounded-3xl"></div>
           </div>
-          <h1 className="naglowek absolute text-4xl md:text-5xl lg:text-6xl font-bold z-20">
+          <h1 className="naglowek absolute text-2xl md:text-4xl lg:text-6xl font-bold z-20 px-4">
             Meble do{" "}
             <TextTransition
               inline={true}
@@ -83,7 +83,7 @@ const Home = () => {
           <h2 className="naglowek1 text-6xl font-bold mb-12">
             Zobacz nasze projekty
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 justify-items-center">
             <img
               src="./products/Rectangle 11col.png"
               alt="Project 1"
@@ -118,7 +118,7 @@ const Home = () => {
         </div>
       </section>
       <section id="contact" className="mb-16"></section>
-      <div className="formularz mx-auto space-y-6 p-20 px-8 sm:px-2 lg:px-3 rounded-3xl mb-12">
+      <div className="formularz mx-auto space-y-6 p-4 md:p-20 px-4 md:px-8 rounded-3xl mb-12">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-gray-900 text-clip">
             Zamów meble już DZIŚ!
