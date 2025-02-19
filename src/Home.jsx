@@ -60,7 +60,7 @@ const Home = () => {
         <div className="homediv relative flex justify-center items-center p-12">
           <div className="relative w-full">
             <img
-              src="furnitures.png"
+              src="./public/furnitures.png"
               alt="Hero Product"
               className="heroimage rounded-lg w-full object-cover"
             />
@@ -85,32 +85,32 @@ const Home = () => {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 justify-items-center">
             <img
-              src="./products/Rectangle 11col.png"
+              src="/products/Rectangle 11col.png"
               alt="Project 1"
               className="rounded-md w-full h-auto"
             />
             <img
-              src="./products/Rectangle 21col.png"
+              src="/products/Rectangle 21col.png"
               alt="Project 2"
               className="rounded-md w-full h-auto"
             />
             <img
-              src="./products/Rectangle 31col.png"
+              src="/products/Rectangle 31col.png"
               alt="Project 3"
               className="rounded-md w-full h-auto"
             />
             <img
-              src="./products/Rectangle 1col2.png"
+              src="/products/Rectangle 1col2.png"
               alt="Project 4"
               className="rounded-md w-full h-auto"
             />
             <img
-              src="./products/Rectangle 2col2.png"
+              src="/products/Rectangle 2col2.png"
               alt="Project 5"
               className="rounded-md w-full h-auto"
             />
             <img
-              src="./products/Rectangle 3col2.png"
+              src="/products/Rectangle 3col2.png"
               alt="Project 6"
               className="rounded-md w-full h-auto"
             />

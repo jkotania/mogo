@@ -3,8 +3,6 @@
 import React, { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "./firebase"; // Importuj instancję db
-import Navbar from "./components/navbar";
-import Footer from "./components/footer"
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);

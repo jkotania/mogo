@@ -1,7 +1,5 @@
 import * as React from "react";
 import { useState, useEffect } from "react";
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
 import { DownArrowIcon } from "./components/icons";
 import { db } from "./firebase"; // Import Firestore database
 import { collection, getDocs } from "firebase/firestore"; 

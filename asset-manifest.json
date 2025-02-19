@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mogo/static/css/main.3379f0c9.css",
+    "main.js": "/mogo/static/js/main.1b547710.js",
+    "index.html": "/mogo/index.html",
+    "main.3379f0c9.css.map": "/mogo/static/css/main.3379f0c9.css.map",
+    "main.1b547710.js.map": "/mogo/static/js/main.1b547710.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3379f0c9.css",
+    "static/js/main.1b547710.js"
+  ]
+}
