@@ -24,4 +24,5 @@ Ten projekt to demonstracyjna strona internetowa wymyślonej firmy MOGO Meble na
 
 ## Wdrożenie
 
-Strona została wdrożona na platformie Vercel. Najlepszym rozwiązaniu dla projektów Next.js.
+Strona została wdrożona na platformie Vercel. Najlepszym rozwiązaniu dla projektów Next.js. 
+mogo-ruby.vercel.app
