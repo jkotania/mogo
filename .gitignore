@@ -1,0 +1,36 @@
+# Zależności
+/node_modules
+/.pnp
+.pnp.js
+
+# Środowisko
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logi
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Katalogi buildowe
+/.next
+/out
+
+# Cache
+.next/cache
+
+# IDE
+.vscode
+.idea
+
+# Systemowe
+.DS_Store
+*.pem
+
+# Testy
+/coverage
+
+# Supabase
+.supabase 
