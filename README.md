@@ -1,4 +1,4 @@
-# MOGO Meble na Wymiar - Twoje Wymarzone Wnętrze
+# [MOGO Meble na Wymiar - Twoje Wymarzone Wnętrze](https://mogo-ruby.vercel.app/)
 ## O projekcie
 
 Ten projekt to demonstracyjna strona internetowa wymyślonej firmy MOGO Meble na Wymiar, prezentująca nasze umiejętności w tworzeniu nowoczesnych i funkcjonalnych stron internetowych dla biznesów z branży meblarskiej. Strona została zaprojektowana i zbudowana z użyciem najnowszych technologii, takich jak Next.js, TypeScript, Framer Motion i Supabase, aby zapewnić wysoką wydajność, responsywność i atrakcyjny wygląd.
@@ -24,12 +24,12 @@ Ten projekt to demonstracyjna strona internetowa wymyślonej firmy MOGO Meble na
 
 ## Wdrożenie
 Strona została wdrożona na platformie Vercel. Najlepszym rozwiązaniu dla projektów Next.js. 
-[Link do strony](https://mogo-ruby.vercel.app/)
+
 
 ---
 
 
-# MOGO Dimensional Furniture - Your Dream Interior
+# [MOGO Dimensional Furniture - Your Dream Interior](https://mogo-ruby.vercel.app/)
 ## About the project
 
 This project is a demonstration website of the imaginary company MOGO Furniture for Dimension, showcasing our skills in creating modern and functional websites for furniture businesses. The website was designed and built using the latest technologies such as Next.js, TypeScript, Framer Motion and Supabase to ensure high performance, responsive and attractive design.
@@ -56,4 +56,3 @@ This project is a demonstration website of the imaginary company MOGO Furniture 
 ## Deployment
 
 The site was deployed on the Vercel platform. The best solution for Next.js projects. 
-[Link to site](https://mogo-ruby.vercel.app/)
