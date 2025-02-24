@@ -25,4 +25,4 @@ Ten projekt to demonstracyjna strona internetowa firmy MOGO Meble na Wymiar, pre
 
 ## Wdrożenie
 
-Strona została wdrożona na GitHub Pages za pomocą GitHub Actions. Workflow automatycznie buduje i publikuje stronę po każdej zmianie w gałęzi `master`. (deploy.yaml)
+Strona została wdrożona na platformie Vercel. Najlepszym rozwiązaniu dla projektów Next.js.
