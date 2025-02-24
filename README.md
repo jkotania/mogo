@@ -25,7 +25,7 @@ Ten projekt to demonstracyjna strona internetowa wymyślonej firmy MOGO Meble na
 ## Wdrożenie
 
 Strona została wdrożona na platformie Vercel. Najlepszym rozwiązaniu dla projektów Next.js. 
-- [Link do strony](https://mogo-ruby.vercel.app/)
+ [Link do strony](https://mogo-ruby.vercel.app/)
 ---
 # MOGO Dimensional Furniture - Your Dream Interior
 ## About the project
@@ -54,4 +54,4 @@ This project is a demonstration website of the imaginary company MOGO Furniture 
 ## Deployment
 
 The site was deployed on the Vercel platform. The best solution for Next.js projects. 
-- [Link to site](https://mogo-ruby.vercel.app/)
+ [Link to site](https://mogo-ruby.vercel.app/)
