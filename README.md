@@ -1,8 +1,7 @@
-# MOGO Meble na Wymiar - Twoje Wymarzone Wnętrze (Strona Demonstracyjna)
-
+# MOGO Meble na Wymiar - Twoje Wymarzone Wnętrze
 ## O projekcie
 
-Ten projekt to demonstracyjna strona internetowa firmy MOGO Meble na Wymiar, prezentująca nasze umiejętności w tworzeniu nowoczesnych i funkcjonalnych stron internetowych dla biznesów z branży meblarskiej. Strona została zaprojektowana i zbudowana z użyciem najnowszych technologii, takich jak Next.js, TypeScript, Framer Motion i Supabase, aby zapewnić wysoką wydajność, responsywność i atrakcyjny wygląd.
+Ten projekt to demonstracyjna strona internetowa wymyślonej firmy MOGO Meble na Wymiar, prezentująca nasze umiejętności w tworzeniu nowoczesnych i funkcjonalnych stron internetowych dla biznesów z branży meblarskiej. Strona została zaprojektowana i zbudowana z użyciem najnowszych technologii, takich jak Next.js, TypeScript, Framer Motion i Supabase, aby zapewnić wysoką wydajność, responsywność i atrakcyjny wygląd.
 
 **Główne cechy:**
 
