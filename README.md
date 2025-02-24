@@ -25,4 +25,33 @@ Ten projekt to demonstracyjna strona internetowa wymyślonej firmy MOGO Meble na
 ## Wdrożenie
 
 Strona została wdrożona na platformie Vercel. Najlepszym rozwiązaniu dla projektów Next.js. 
-mogo-ruby.vercel.app
+- [Link do strony](https://mogo-ruby.vercel.app/)
+---
+# MOGO Dimensional Furniture - Your Dream Interior
+## About the project
+
+This project is a demonstration website of the imaginary company MOGO Furniture for Dimension, showcasing our skills in creating modern and functional websites for furniture businesses. The website was designed and built using the latest technologies such as Next.js, TypeScript, Framer Motion and Supabase to ensure high performance, responsive and attractive design.
+
+**Main Features:**.
+
+- **Modern design:** The site features a clean and intuitive user interface that provides a positive experience for visitors.
+- **Responsiveness:** The site is fully responsive and adapts to different screen sizes, from smartphones to desktops.
+- **Animations and Interactions:** Using Framer Motion adds subtle animations and interactions that bring the site to life and engage users. (src/components/AnimatedLayout.tsx)
+- **Dynamic Content:** The site uses Supabase to store and manage project and listing data, making it easy to update content without interfering with code. (src/app/projects/page.tsx)
+- **Contact Form:** Integrated contact form with client-side validation and support for sending messages using Supabase. (src/app/page.tsx)
+- **SEO Optimization:** The site has been optimized for search engines for better visibility in search results. (src/app/layout.tsx)
+- **CustomTextTransition component:** Dynamically changing text in the homepage header, adding a unique visual element. (src/components/CustomTextTransition.tsx)
+
+## Technologies
+
+- **Next.js:** React framework for building powerful and scalable web applications.
+- **TypeScript:** A programming language that extends JavaScript with static typing to help detect errors in the development stage.
+- **Tailwind CSS:** CSS framework that makes it quick and easy to create responsive user interfaces.
+- **Framer Motion:** A library for creating animations and interactions in React.
+- **Supabase:** An open-source alternative to Firebase that provides a database, authentication and other backend services.
+- **GitHub Actions:** A workflow automation platform used to automatically deploy a page to GitHub Pages.
+
+## Deployment
+
+The site was deployed on the Vercel platform. The best solution for Next.js projects. 
+- [Link to site](https://mogo-ruby.vercel.app/)
